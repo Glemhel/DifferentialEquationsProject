@@ -28,76 +28,64 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series16 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series19 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series20 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series21 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series22 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea13 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend13 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series41 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series42 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series43 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series44 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea14 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend14 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series45 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series46 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series47 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea15 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend15 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series48 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series49 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series50 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tabPanelControl = new System.Windows.Forms.TabControl();
             this.tabIVPSolutions = new System.Windows.Forms.TabPage();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.chartIVP = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartLTE = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.buttonIVPPlot = new System.Windows.Forms.Button();
-            this.checkBoxIVPRungeKutta = new System.Windows.Forms.CheckBox();
-            this.checkBoxIVPImprovedEuler = new System.Windows.Forms.CheckBox();
-            this.checkBoxIVPEuler = new System.Windows.Forms.CheckBox();
-            this.labelIVPDisplayChoice = new System.Windows.Forms.Label();
-            this.checkBoxIVPExact = new System.Windows.Forms.CheckBox();
-            this.textBoxIVPN = new System.Windows.Forms.TextBox();
-            this.textBoxIVPX = new System.Windows.Forms.TextBox();
-            this.textBoxIVPy0 = new System.Windows.Forms.TextBox();
-            this.textBoxIVPx0 = new System.Windows.Forms.TextBox();
-            this.labelVPN = new System.Windows.Forms.Label();
-            this.labelIVPX = new System.Windows.Forms.Label();
-            this.labelIVPy0 = new System.Windows.Forms.Label();
-            this.labelIVPx0 = new System.Windows.Forms.Label();
-            this.labelIVPInput = new System.Windows.Forms.Label();
             this.tabErrorAnalysis = new System.Windows.Forms.TabPage();
-            this.splitContainerEA = new System.Windows.Forms.SplitContainer();
             this.chartEA = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.buttonEAPlot = new System.Windows.Forms.Button();
-            this.checkBoxEARungeKutta = new System.Windows.Forms.CheckBox();
-            this.checkBoxEAImprovedEuler = new System.Windows.Forms.CheckBox();
-            this.checkBoxEAEuler = new System.Windows.Forms.CheckBox();
-            this.labelEADisplayChoice = new System.Windows.Forms.Label();
-            this.checkBoxEAExact = new System.Windows.Forms.CheckBox();
-            this.textBoxEAN = new System.Windows.Forms.TextBox();
-            this.textBoxEAn0 = new System.Windows.Forms.TextBox();
-            this.labelEAN = new System.Windows.Forms.Label();
-            this.labelEAn0 = new System.Windows.Forms.Label();
+            this.buttonPlotAnalyze = new System.Windows.Forms.Button();
+            this.checkBoxRungeKutta = new System.Windows.Forms.CheckBox();
+            this.checkBoxImprovedEuler = new System.Windows.Forms.CheckBox();
+            this.checkBoxEuler = new System.Windows.Forms.CheckBox();
+            this.labelDisplayChoice = new System.Windows.Forms.Label();
+            this.checkBoxExact = new System.Windows.Forms.CheckBox();
+            this.textBoxN = new System.Windows.Forms.TextBox();
+            this.textBoxX = new System.Windows.Forms.TextBox();
+            this.textBoxy0 = new System.Windows.Forms.TextBox();
+            this.textBoxx0 = new System.Windows.Forms.TextBox();
+            this.labelN = new System.Windows.Forms.Label();
+            this.labelX = new System.Windows.Forms.Label();
+            this.labely0 = new System.Windows.Forms.Label();
+            this.labelx0 = new System.Windows.Forms.Label();
+            this.labelIVPInput = new System.Windows.Forms.Label();
+            this.textBoxnFinish = new System.Windows.Forms.TextBox();
+            this.textBoxnStart = new System.Windows.Forms.TextBox();
+            this.labelnFinish = new System.Windows.Forms.Label();
+            this.labelnStart = new System.Windows.Forms.Label();
             this.labelEAInput = new System.Windows.Forms.Label();
+            this.splitContainer3 = new System.Windows.Forms.SplitContainer();
             this.tabPanelControl.SuspendLayout();
             this.tabIVPSolutions.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
-            this.splitContainer2.Panel1.SuspendLayout();
-            this.splitContainer2.Panel2.SuspendLayout();
-            this.splitContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartIVP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartLTE)).BeginInit();
             this.tabErrorAnalysis.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerEA)).BeginInit();
-            this.splitContainerEA.Panel1.SuspendLayout();
-            this.splitContainerEA.Panel2.SuspendLayout();
-            this.splitContainerEA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartEA)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
+            this.splitContainer3.Panel1.SuspendLayout();
+            this.splitContainer3.Panel2.SuspendLayout();
+            this.splitContainer3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabPanelControl
@@ -108,7 +96,7 @@
             this.tabPanelControl.Location = new System.Drawing.Point(0, 0);
             this.tabPanelControl.Name = "tabPanelControl";
             this.tabPanelControl.SelectedIndex = 0;
-            this.tabPanelControl.Size = new System.Drawing.Size(1132, 706);
+            this.tabPanelControl.Size = new System.Drawing.Size(798, 702);
             this.tabPanelControl.TabIndex = 0;
             // 
             // tabIVPSolutions
@@ -117,7 +105,7 @@
             this.tabIVPSolutions.Location = new System.Drawing.Point(4, 25);
             this.tabIVPSolutions.Name = "tabIVPSolutions";
             this.tabIVPSolutions.Padding = new System.Windows.Forms.Padding(3);
-            this.tabIVPSolutions.Size = new System.Drawing.Size(1124, 677);
+            this.tabIVPSolutions.Size = new System.Drawing.Size(790, 673);
             this.tabIVPSolutions.TabIndex = 0;
             this.tabIVPSolutions.Text = "IVP solutions";
             this.tabIVPSolutions.UseVisualStyleBackColor = true;
@@ -128,506 +116,447 @@
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(3, 3);
             this.splitContainer1.Name = "splitContainer1";
+            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.splitContainer2);
+            this.splitContainer1.Panel1.Controls.Add(this.chartIVP);
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.buttonIVPPlot);
-            this.splitContainer1.Panel2.Controls.Add(this.checkBoxIVPRungeKutta);
-            this.splitContainer1.Panel2.Controls.Add(this.checkBoxIVPImprovedEuler);
-            this.splitContainer1.Panel2.Controls.Add(this.checkBoxIVPEuler);
-            this.splitContainer1.Panel2.Controls.Add(this.labelIVPDisplayChoice);
-            this.splitContainer1.Panel2.Controls.Add(this.checkBoxIVPExact);
-            this.splitContainer1.Panel2.Controls.Add(this.textBoxIVPN);
-            this.splitContainer1.Panel2.Controls.Add(this.textBoxIVPX);
-            this.splitContainer1.Panel2.Controls.Add(this.textBoxIVPy0);
-            this.splitContainer1.Panel2.Controls.Add(this.textBoxIVPx0);
-            this.splitContainer1.Panel2.Controls.Add(this.labelVPN);
-            this.splitContainer1.Panel2.Controls.Add(this.labelIVPX);
-            this.splitContainer1.Panel2.Controls.Add(this.labelIVPy0);
-            this.splitContainer1.Panel2.Controls.Add(this.labelIVPx0);
-            this.splitContainer1.Panel2.Controls.Add(this.labelIVPInput);
-            this.splitContainer1.Size = new System.Drawing.Size(1118, 671);
-            this.splitContainer1.SplitterDistance = 651;
+            this.splitContainer1.Panel2.Controls.Add(this.chartLTE);
+            this.splitContainer1.Size = new System.Drawing.Size(784, 667);
+            this.splitContainer1.SplitterDistance = 261;
             this.splitContainer1.TabIndex = 0;
-            // 
-            // splitContainer2
-            // 
-            this.splitContainer2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer2.Name = "splitContainer2";
-            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer2.Panel1
-            // 
-            this.splitContainer2.Panel1.Controls.Add(this.chartIVP);
-            // 
-            // splitContainer2.Panel2
-            // 
-            this.splitContainer2.Panel2.Controls.Add(this.chartLTE);
-            this.splitContainer2.Size = new System.Drawing.Size(651, 671);
-            this.splitContainer2.SplitterDistance = 335;
-            this.splitContainer2.TabIndex = 0;
             // 
             // chartIVP
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chartIVP.ChartAreas.Add(chartArea5);
+            chartArea13.CursorX.IsUserEnabled = true;
+            chartArea13.CursorX.IsUserSelectionEnabled = true;
+            chartArea13.CursorY.IsUserEnabled = true;
+            chartArea13.CursorY.IsUserSelectionEnabled = true;
+            chartArea13.Name = "ChartArea1";
+            this.chartIVP.ChartAreas.Add(chartArea13);
             this.chartIVP.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend5.Name = "Legend1";
-            this.chartIVP.Legends.Add(legend5);
+            legend13.Name = "Legend1";
+            legend13.Title = "IVP";
+            this.chartIVP.Legends.Add(legend13);
             this.chartIVP.Location = new System.Drawing.Point(0, 0);
             this.chartIVP.Name = "chartIVP";
-            series16.ChartArea = "ChartArea1";
-            series16.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series16.Color = System.Drawing.Color.Red;
-            series16.Legend = "Legend1";
-            series16.Name = "Exact";
-            series17.ChartArea = "ChartArea1";
-            series17.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series17.Color = System.Drawing.Color.Blue;
-            series17.Legend = "Legend1";
-            series17.Name = "Euler";
-            series18.ChartArea = "ChartArea1";
-            series18.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series18.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            series18.Legend = "Legend1";
-            series18.Name = "ImprovedEuler";
-            series19.ChartArea = "ChartArea1";
-            series19.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series19.Color = System.Drawing.Color.Lime;
-            series19.Legend = "Legend1";
-            series19.Name = "RungeKutta";
-            this.chartIVP.Series.Add(series16);
-            this.chartIVP.Series.Add(series17);
-            this.chartIVP.Series.Add(series18);
-            this.chartIVP.Series.Add(series19);
-            this.chartIVP.Size = new System.Drawing.Size(649, 333);
+            series41.ChartArea = "ChartArea1";
+            series41.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series41.Color = System.Drawing.Color.Red;
+            series41.Legend = "Legend1";
+            series41.Name = "Exact";
+            series42.ChartArea = "ChartArea1";
+            series42.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series42.Color = System.Drawing.Color.Blue;
+            series42.Legend = "Legend1";
+            series42.Name = "Euler";
+            series43.ChartArea = "ChartArea1";
+            series43.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series43.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            series43.Legend = "Legend1";
+            series43.Name = "ImprovedEuler";
+            series44.ChartArea = "ChartArea1";
+            series44.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series44.Color = System.Drawing.Color.Lime;
+            series44.Legend = "Legend1";
+            series44.Name = "RungeKutta";
+            this.chartIVP.Series.Add(series41);
+            this.chartIVP.Series.Add(series42);
+            this.chartIVP.Series.Add(series43);
+            this.chartIVP.Series.Add(series44);
+            this.chartIVP.Size = new System.Drawing.Size(782, 259);
             this.chartIVP.TabIndex = 0;
             this.chartIVP.Text = "chartIVP";
             // 
             // chartLTE
             // 
-            chartArea6.Name = "ChartArea1";
-            this.chartLTE.ChartAreas.Add(chartArea6);
+            chartArea14.CursorX.IsUserEnabled = true;
+            chartArea14.CursorX.IsUserSelectionEnabled = true;
+            chartArea14.Name = "ChartArea1";
+            this.chartLTE.ChartAreas.Add(chartArea14);
             this.chartLTE.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend6.Name = "Legend1";
-            this.chartLTE.Legends.Add(legend6);
+            legend14.Name = "Legend1";
+            legend14.Title = "LTE";
+            this.chartLTE.Legends.Add(legend14);
             this.chartLTE.Location = new System.Drawing.Point(0, 0);
             this.chartLTE.Name = "chartLTE";
-            series20.ChartArea = "ChartArea1";
-            series20.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series20.Color = System.Drawing.Color.Blue;
-            series20.Legend = "Legend1";
-            series20.Name = "Euler";
-            series21.ChartArea = "ChartArea1";
-            series21.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series21.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            series21.Legend = "Legend1";
-            series21.Name = "ImprovedEuler";
-            series22.ChartArea = "ChartArea1";
-            series22.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series22.Color = System.Drawing.Color.Lime;
-            series22.Legend = "Legend1";
-            series22.Name = "RungeKutta";
-            this.chartLTE.Series.Add(series20);
-            this.chartLTE.Series.Add(series21);
-            this.chartLTE.Series.Add(series22);
-            this.chartLTE.Size = new System.Drawing.Size(649, 330);
+            series45.ChartArea = "ChartArea1";
+            series45.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series45.Color = System.Drawing.Color.Blue;
+            series45.Legend = "Legend1";
+            series45.Name = "Euler";
+            series46.ChartArea = "ChartArea1";
+            series46.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series46.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            series46.Legend = "Legend1";
+            series46.Name = "ImprovedEuler";
+            series47.ChartArea = "ChartArea1";
+            series47.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series47.Color = System.Drawing.Color.Lime;
+            series47.Legend = "Legend1";
+            series47.Name = "RungeKutta";
+            this.chartLTE.Series.Add(series45);
+            this.chartLTE.Series.Add(series46);
+            this.chartLTE.Series.Add(series47);
+            this.chartLTE.Size = new System.Drawing.Size(782, 400);
             this.chartLTE.TabIndex = 0;
             this.chartLTE.Text = "chartLTE";
             // 
-            // buttonIVPPlot
+            // tabErrorAnalysis
             // 
-            this.buttonIVPPlot.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonIVPPlot.Location = new System.Drawing.Point(12, 395);
-            this.buttonIVPPlot.Name = "buttonIVPPlot";
-            this.buttonIVPPlot.Size = new System.Drawing.Size(328, 34);
-            this.buttonIVPPlot.TabIndex = 15;
-            this.buttonIVPPlot.Text = "Plot!";
-            this.buttonIVPPlot.UseVisualStyleBackColor = true;
-            this.buttonIVPPlot.Click += new System.EventHandler(this.button_plot_click);
+            this.tabErrorAnalysis.Controls.Add(this.chartEA);
+            this.tabErrorAnalysis.Location = new System.Drawing.Point(4, 25);
+            this.tabErrorAnalysis.Name = "tabErrorAnalysis";
+            this.tabErrorAnalysis.Padding = new System.Windows.Forms.Padding(3);
+            this.tabErrorAnalysis.Size = new System.Drawing.Size(790, 673);
+            this.tabErrorAnalysis.TabIndex = 1;
+            this.tabErrorAnalysis.Text = "Error analysis";
+            this.tabErrorAnalysis.UseVisualStyleBackColor = true;
             // 
-            // checkBoxIVPRungeKutta
+            // chartEA
             // 
-            this.checkBoxIVPRungeKutta.AutoSize = true;
-            this.checkBoxIVPRungeKutta.Checked = true;
-            this.checkBoxIVPRungeKutta.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxIVPRungeKutta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBoxIVPRungeKutta.Location = new System.Drawing.Point(12, 348);
-            this.checkBoxIVPRungeKutta.Name = "checkBoxIVPRungeKutta";
-            this.checkBoxIVPRungeKutta.Size = new System.Drawing.Size(205, 28);
-            this.checkBoxIVPRungeKutta.TabIndex = 14;
-            this.checkBoxIVPRungeKutta.Text = "Runge-Kutta method";
-            this.checkBoxIVPRungeKutta.UseVisualStyleBackColor = true;
-            this.checkBoxIVPRungeKutta.CheckedChanged += new System.EventHandler(this.checkBoxIVPRungeKuttaCheckedChanged);
+            chartArea15.CursorX.IsUserEnabled = true;
+            chartArea15.CursorX.IsUserSelectionEnabled = true;
+            chartArea15.CursorY.IsUserEnabled = true;
+            chartArea15.CursorY.IsUserSelectionEnabled = true;
+            chartArea15.Name = "ChartArea1";
+            this.chartEA.ChartAreas.Add(chartArea15);
+            this.chartEA.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend15.Name = "Legend1";
+            legend15.Title = "GTE";
+            this.chartEA.Legends.Add(legend15);
+            this.chartEA.Location = new System.Drawing.Point(3, 3);
+            this.chartEA.Name = "chartEA";
+            series48.ChartArea = "ChartArea1";
+            series48.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series48.Color = System.Drawing.Color.Blue;
+            series48.Legend = "Legend1";
+            series48.Name = "Euler";
+            series49.ChartArea = "ChartArea1";
+            series49.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series49.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            series49.Legend = "Legend1";
+            series49.Name = "ImprovedEuler";
+            series50.ChartArea = "ChartArea1";
+            series50.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series50.Color = System.Drawing.Color.Lime;
+            series50.Legend = "Legend1";
+            series50.Name = "RungeKutta";
+            this.chartEA.Series.Add(series48);
+            this.chartEA.Series.Add(series49);
+            this.chartEA.Series.Add(series50);
+            this.chartEA.Size = new System.Drawing.Size(784, 667);
+            this.chartEA.TabIndex = 0;
+            this.chartEA.Text = "chartEA";
             // 
-            // checkBoxIVPImprovedEuler
+            // buttonPlotAnalyze
             // 
-            this.checkBoxIVPImprovedEuler.AutoSize = true;
-            this.checkBoxIVPImprovedEuler.Checked = true;
-            this.checkBoxIVPImprovedEuler.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxIVPImprovedEuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBoxIVPImprovedEuler.Location = new System.Drawing.Point(12, 306);
-            this.checkBoxIVPImprovedEuler.Name = "checkBoxIVPImprovedEuler";
-            this.checkBoxIVPImprovedEuler.Size = new System.Drawing.Size(230, 28);
-            this.checkBoxIVPImprovedEuler.TabIndex = 13;
-            this.checkBoxIVPImprovedEuler.Text = "Improved Euler method";
-            this.checkBoxIVPImprovedEuler.UseVisualStyleBackColor = true;
-            this.checkBoxIVPImprovedEuler.CheckedChanged += new System.EventHandler(this.checkBoxIVPImprovedEulerCheckedChanged);
+            this.buttonPlotAnalyze.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonPlotAnalyze.Location = new System.Drawing.Point(11, 557);
+            this.buttonPlotAnalyze.Name = "buttonPlotAnalyze";
+            this.buttonPlotAnalyze.Size = new System.Drawing.Size(328, 34);
+            this.buttonPlotAnalyze.TabIndex = 15;
+            this.buttonPlotAnalyze.Text = "Plot and Analyze!";
+            this.buttonPlotAnalyze.UseVisualStyleBackColor = true;
+            this.buttonPlotAnalyze.Click += new System.EventHandler(this.buttonIVPPlotClick);
             // 
-            // checkBoxIVPEuler
+            // checkBoxRungeKutta
             // 
-            this.checkBoxIVPEuler.AutoSize = true;
-            this.checkBoxIVPEuler.Checked = true;
-            this.checkBoxIVPEuler.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxIVPEuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBoxIVPEuler.Location = new System.Drawing.Point(12, 262);
-            this.checkBoxIVPEuler.Name = "checkBoxIVPEuler";
-            this.checkBoxIVPEuler.Size = new System.Drawing.Size(146, 28);
-            this.checkBoxIVPEuler.TabIndex = 12;
-            this.checkBoxIVPEuler.Text = "Euler method";
-            this.checkBoxIVPEuler.UseVisualStyleBackColor = true;
-            this.checkBoxIVPEuler.CheckedChanged += new System.EventHandler(this.checkBoxIVPEulerCheckedChanged);
+            this.checkBoxRungeKutta.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkBoxRungeKutta.AutoSize = true;
+            this.checkBoxRungeKutta.Checked = true;
+            this.checkBoxRungeKutta.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxRungeKutta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBoxRungeKutta.Location = new System.Drawing.Point(11, 501);
+            this.checkBoxRungeKutta.Name = "checkBoxRungeKutta";
+            this.checkBoxRungeKutta.Size = new System.Drawing.Size(205, 28);
+            this.checkBoxRungeKutta.TabIndex = 14;
+            this.checkBoxRungeKutta.Text = "Runge-Kutta method";
+            this.checkBoxRungeKutta.UseVisualStyleBackColor = true;
+            this.checkBoxRungeKutta.CheckedChanged += new System.EventHandler(this.checkBoxIVPRungeKuttaCheckedChanged);
             // 
-            // labelIVPDisplayChoice
+            // checkBoxImprovedEuler
             // 
-            this.labelIVPDisplayChoice.AutoSize = true;
-            this.labelIVPDisplayChoice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelIVPDisplayChoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelIVPDisplayChoice.Location = new System.Drawing.Point(12, 181);
-            this.labelIVPDisplayChoice.Name = "labelIVPDisplayChoice";
-            this.labelIVPDisplayChoice.Padding = new System.Windows.Forms.Padding(5);
-            this.labelIVPDisplayChoice.Size = new System.Drawing.Size(255, 36);
-            this.labelIVPDisplayChoice.TabIndex = 11;
-            this.labelIVPDisplayChoice.Text = "Choose solutions to display:";
+            this.checkBoxImprovedEuler.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkBoxImprovedEuler.AutoSize = true;
+            this.checkBoxImprovedEuler.Checked = true;
+            this.checkBoxImprovedEuler.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxImprovedEuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBoxImprovedEuler.Location = new System.Drawing.Point(11, 467);
+            this.checkBoxImprovedEuler.Name = "checkBoxImprovedEuler";
+            this.checkBoxImprovedEuler.Size = new System.Drawing.Size(230, 28);
+            this.checkBoxImprovedEuler.TabIndex = 13;
+            this.checkBoxImprovedEuler.Text = "Improved Euler method";
+            this.checkBoxImprovedEuler.UseVisualStyleBackColor = true;
+            this.checkBoxImprovedEuler.CheckedChanged += new System.EventHandler(this.checkBoxIVPImprovedEulerCheckedChanged);
             // 
-            // checkBoxIVPExact
+            // checkBoxEuler
             // 
-            this.checkBoxIVPExact.AutoSize = true;
-            this.checkBoxIVPExact.Checked = true;
-            this.checkBoxIVPExact.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxIVPExact.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBoxIVPExact.Location = new System.Drawing.Point(12, 224);
-            this.checkBoxIVPExact.Name = "checkBoxIVPExact";
-            this.checkBoxIVPExact.Size = new System.Drawing.Size(79, 28);
-            this.checkBoxIVPExact.TabIndex = 10;
-            this.checkBoxIVPExact.Text = "Exact";
-            this.checkBoxIVPExact.UseVisualStyleBackColor = true;
-            this.checkBoxIVPExact.CheckedChanged += new System.EventHandler(this.checkBoxIVPExactCheckedChanged);
+            this.checkBoxEuler.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkBoxEuler.AutoSize = true;
+            this.checkBoxEuler.Checked = true;
+            this.checkBoxEuler.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxEuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBoxEuler.Location = new System.Drawing.Point(11, 433);
+            this.checkBoxEuler.Name = "checkBoxEuler";
+            this.checkBoxEuler.Size = new System.Drawing.Size(146, 28);
+            this.checkBoxEuler.TabIndex = 12;
+            this.checkBoxEuler.Text = "Euler method";
+            this.checkBoxEuler.UseVisualStyleBackColor = true;
+            this.checkBoxEuler.CheckedChanged += new System.EventHandler(this.checkBoxIVPEulerCheckedChanged);
             // 
-            // textBoxIVPN
+            // labelDisplayChoice
             // 
-            this.textBoxIVPN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxIVPN.Location = new System.Drawing.Point(46, 146);
-            this.textBoxIVPN.Name = "textBoxIVPN";
-            this.textBoxIVPN.Size = new System.Drawing.Size(233, 28);
-            this.textBoxIVPN.TabIndex = 9;
-            this.textBoxIVPN.Text = "10";
+            this.labelDisplayChoice.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelDisplayChoice.AutoSize = true;
+            this.labelDisplayChoice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelDisplayChoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelDisplayChoice.Location = new System.Drawing.Point(3, 348);
+            this.labelDisplayChoice.Name = "labelDisplayChoice";
+            this.labelDisplayChoice.Padding = new System.Windows.Forms.Padding(5);
+            this.labelDisplayChoice.Size = new System.Drawing.Size(255, 36);
+            this.labelDisplayChoice.TabIndex = 11;
+            this.labelDisplayChoice.Text = "Choose solutions to display:";
             // 
-            // textBoxIVPX
+            // checkBoxExact
             // 
-            this.textBoxIVPX.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxIVPX.Location = new System.Drawing.Point(46, 118);
-            this.textBoxIVPX.Name = "textBoxIVPX";
-            this.textBoxIVPX.Size = new System.Drawing.Size(233, 28);
-            this.textBoxIVPX.TabIndex = 8;
-            this.textBoxIVPX.Text = "8";
+            this.checkBoxExact.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkBoxExact.AutoSize = true;
+            this.checkBoxExact.Checked = true;
+            this.checkBoxExact.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxExact.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBoxExact.Location = new System.Drawing.Point(11, 399);
+            this.checkBoxExact.Name = "checkBoxExact";
+            this.checkBoxExact.Size = new System.Drawing.Size(79, 28);
+            this.checkBoxExact.TabIndex = 10;
+            this.checkBoxExact.Text = "Exact";
+            this.checkBoxExact.UseVisualStyleBackColor = true;
+            this.checkBoxExact.CheckedChanged += new System.EventHandler(this.checkBoxIVPExactCheckedChanged);
             // 
-            // textBoxIVPy0
+            // textBoxN
             // 
-            this.textBoxIVPy0.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxIVPy0.Location = new System.Drawing.Point(46, 88);
-            this.textBoxIVPy0.Name = "textBoxIVPy0";
-            this.textBoxIVPy0.Size = new System.Drawing.Size(233, 28);
-            this.textBoxIVPy0.TabIndex = 7;
-            this.textBoxIVPy0.Text = "0";
+            this.textBoxN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxN.Location = new System.Drawing.Point(106, 165);
+            this.textBoxN.Name = "textBoxN";
+            this.textBoxN.Size = new System.Drawing.Size(233, 28);
+            this.textBoxN.TabIndex = 9;
+            this.textBoxN.Text = "10";
             // 
-            // textBoxIVPx0
+            // textBoxX
             // 
-            this.textBoxIVPx0.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxIVPx0.Location = new System.Drawing.Point(46, 57);
-            this.textBoxIVPx0.Name = "textBoxIVPx0";
-            this.textBoxIVPx0.Size = new System.Drawing.Size(233, 28);
-            this.textBoxIVPx0.TabIndex = 6;
-            this.textBoxIVPx0.Text = "1";
+            this.textBoxX.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxX.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxX.Location = new System.Drawing.Point(106, 131);
+            this.textBoxX.Name = "textBoxX";
+            this.textBoxX.Size = new System.Drawing.Size(233, 28);
+            this.textBoxX.TabIndex = 8;
+            this.textBoxX.Text = "8";
             // 
-            // labelVPN
+            // textBoxy0
             // 
-            this.labelVPN.AutoSize = true;
-            this.labelVPN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelVPN.Location = new System.Drawing.Point(12, 151);
-            this.labelVPN.Name = "labelVPN";
-            this.labelVPN.Size = new System.Drawing.Size(29, 24);
-            this.labelVPN.TabIndex = 5;
-            this.labelVPN.Text = "N:";
+            this.textBoxy0.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxy0.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxy0.Location = new System.Drawing.Point(106, 97);
+            this.textBoxy0.Name = "textBoxy0";
+            this.textBoxy0.Size = new System.Drawing.Size(233, 28);
+            this.textBoxy0.TabIndex = 7;
+            this.textBoxy0.Text = "0";
             // 
-            // labelIVPX
+            // textBoxx0
             // 
-            this.labelIVPX.AutoSize = true;
-            this.labelIVPX.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelIVPX.Location = new System.Drawing.Point(13, 123);
-            this.labelIVPX.Name = "labelIVPX";
-            this.labelIVPX.Size = new System.Drawing.Size(29, 24);
-            this.labelIVPX.TabIndex = 4;
-            this.labelIVPX.Text = "X:";
+            this.textBoxx0.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxx0.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxx0.Location = new System.Drawing.Point(106, 63);
+            this.textBoxx0.Name = "textBoxx0";
+            this.textBoxx0.Size = new System.Drawing.Size(233, 28);
+            this.textBoxx0.TabIndex = 6;
+            this.textBoxx0.Text = "1";
             // 
-            // labelIVPy0
+            // labelN
             // 
-            this.labelIVPy0.AutoSize = true;
-            this.labelIVPy0.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelIVPy0.Location = new System.Drawing.Point(12, 93);
-            this.labelIVPy0.Name = "labelIVPy0";
-            this.labelIVPy0.Size = new System.Drawing.Size(34, 24);
-            this.labelIVPy0.TabIndex = 3;
-            this.labelIVPy0.Text = "y0:";
+            this.labelN.AutoSize = true;
+            this.labelN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelN.Location = new System.Drawing.Point(61, 169);
+            this.labelN.Name = "labelN";
+            this.labelN.Size = new System.Drawing.Size(29, 24);
+            this.labelN.TabIndex = 5;
+            this.labelN.Text = "N:";
             // 
-            // labelIVPx0
+            // labelX
             // 
-            this.labelIVPx0.AutoSize = true;
-            this.labelIVPx0.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelIVPx0.Location = new System.Drawing.Point(12, 62);
-            this.labelIVPx0.Name = "labelIVPx0";
-            this.labelIVPx0.Size = new System.Drawing.Size(35, 24);
-            this.labelIVPx0.TabIndex = 2;
-            this.labelIVPx0.Text = "x0:";
+            this.labelX.AutoSize = true;
+            this.labelX.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelX.Location = new System.Drawing.Point(61, 135);
+            this.labelX.Name = "labelX";
+            this.labelX.Size = new System.Drawing.Size(29, 24);
+            this.labelX.TabIndex = 4;
+            this.labelX.Text = "X:";
+            // 
+            // labely0
+            // 
+            this.labely0.AutoSize = true;
+            this.labely0.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labely0.Location = new System.Drawing.Point(56, 101);
+            this.labely0.Name = "labely0";
+            this.labely0.Size = new System.Drawing.Size(34, 24);
+            this.labely0.TabIndex = 3;
+            this.labely0.Text = "y0:";
+            // 
+            // labelx0
+            // 
+            this.labelx0.AutoSize = true;
+            this.labelx0.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelx0.Location = new System.Drawing.Point(55, 67);
+            this.labelx0.Name = "labelx0";
+            this.labelx0.Size = new System.Drawing.Size(35, 24);
+            this.labelx0.TabIndex = 2;
+            this.labelx0.Text = "x0:";
             // 
             // labelIVPInput
             // 
+            this.labelIVPInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelIVPInput.AutoSize = true;
             this.labelIVPInput.BackColor = System.Drawing.Color.Transparent;
             this.labelIVPInput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelIVPInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelIVPInput.Location = new System.Drawing.Point(15, 12);
+            this.labelIVPInput.Location = new System.Drawing.Point(3, 8);
             this.labelIVPInput.Name = "labelIVPInput";
             this.labelIVPInput.Padding = new System.Windows.Forms.Padding(5);
             this.labelIVPInput.Size = new System.Drawing.Size(221, 36);
             this.labelIVPInput.TabIndex = 1;
             this.labelIVPInput.Text = "Input parameters of IVP:";
             // 
-            // tabErrorAnalysis
+            // textBoxnFinish
             // 
-            this.tabErrorAnalysis.Controls.Add(this.splitContainerEA);
-            this.tabErrorAnalysis.Location = new System.Drawing.Point(4, 25);
-            this.tabErrorAnalysis.Name = "tabErrorAnalysis";
-            this.tabErrorAnalysis.Padding = new System.Windows.Forms.Padding(3);
-            this.tabErrorAnalysis.Size = new System.Drawing.Size(1124, 677);
-            this.tabErrorAnalysis.TabIndex = 1;
-            this.tabErrorAnalysis.Text = "Error analysis";
-            this.tabErrorAnalysis.UseVisualStyleBackColor = true;
+            this.textBoxnFinish.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxnFinish.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxnFinish.Location = new System.Drawing.Point(106, 294);
+            this.textBoxnFinish.Name = "textBoxnFinish";
+            this.textBoxnFinish.Size = new System.Drawing.Size(233, 28);
+            this.textBoxnFinish.TabIndex = 22;
+            this.textBoxnFinish.Text = "100";
             // 
-            // splitContainerEA
+            // textBoxnStart
             // 
-            this.splitContainerEA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.splitContainerEA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerEA.Location = new System.Drawing.Point(3, 3);
-            this.splitContainerEA.Name = "splitContainerEA";
+            this.textBoxnStart.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxnStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxnStart.Location = new System.Drawing.Point(106, 260);
+            this.textBoxnStart.Name = "textBoxnStart";
+            this.textBoxnStart.Size = new System.Drawing.Size(233, 28);
+            this.textBoxnStart.TabIndex = 21;
+            this.textBoxnStart.Text = "50";
             // 
-            // splitContainerEA.Panel1
+            // labelnFinish
             // 
-            this.splitContainerEA.Panel1.Controls.Add(this.chartEA);
+            this.labelnFinish.AutoSize = true;
+            this.labelnFinish.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelnFinish.Location = new System.Drawing.Point(13, 298);
+            this.labelnFinish.Name = "labelnFinish";
+            this.labelnFinish.Size = new System.Drawing.Size(77, 24);
+            this.labelnFinish.TabIndex = 18;
+            this.labelnFinish.Text = "nFinish:";
             // 
-            // splitContainerEA.Panel2
+            // labelnStart
             // 
-            this.splitContainerEA.Panel2.Controls.Add(this.buttonEAPlot);
-            this.splitContainerEA.Panel2.Controls.Add(this.checkBoxEARungeKutta);
-            this.splitContainerEA.Panel2.Controls.Add(this.checkBoxEAImprovedEuler);
-            this.splitContainerEA.Panel2.Controls.Add(this.checkBoxEAEuler);
-            this.splitContainerEA.Panel2.Controls.Add(this.labelEADisplayChoice);
-            this.splitContainerEA.Panel2.Controls.Add(this.checkBoxEAExact);
-            this.splitContainerEA.Panel2.Controls.Add(this.textBoxEAN);
-            this.splitContainerEA.Panel2.Controls.Add(this.textBoxEAn0);
-            this.splitContainerEA.Panel2.Controls.Add(this.labelEAN);
-            this.splitContainerEA.Panel2.Controls.Add(this.labelEAn0);
-            this.splitContainerEA.Panel2.Controls.Add(this.labelEAInput);
-            this.splitContainerEA.Size = new System.Drawing.Size(1118, 671);
-            this.splitContainerEA.SplitterDistance = 618;
-            this.splitContainerEA.TabIndex = 0;
-            // 
-            // chartEA
-            // 
-            chartArea4.Name = "ChartArea1";
-            this.chartEA.ChartAreas.Add(chartArea4);
-            this.chartEA.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend4.Name = "Legend1";
-            this.chartEA.Legends.Add(legend4);
-            this.chartEA.Location = new System.Drawing.Point(0, 0);
-            this.chartEA.Name = "chartEA";
-            series12.ChartArea = "ChartArea1";
-            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series12.Color = System.Drawing.Color.Red;
-            series12.Legend = "Legend1";
-            series12.Name = "Exact";
-            series13.ChartArea = "ChartArea1";
-            series13.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series13.Color = System.Drawing.Color.Blue;
-            series13.Legend = "Legend1";
-            series13.Name = "Euler";
-            series14.ChartArea = "ChartArea1";
-            series14.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series14.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            series14.Legend = "Legend1";
-            series14.Name = "ImprovedEuler";
-            series15.ChartArea = "ChartArea1";
-            series15.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series15.Color = System.Drawing.Color.Lime;
-            series15.Legend = "Legend1";
-            series15.Name = "RungeKutta";
-            this.chartEA.Series.Add(series12);
-            this.chartEA.Series.Add(series13);
-            this.chartEA.Series.Add(series14);
-            this.chartEA.Series.Add(series15);
-            this.chartEA.Size = new System.Drawing.Size(616, 669);
-            this.chartEA.TabIndex = 0;
-            this.chartEA.Text = "chartEA";
-            // 
-            // buttonEAPlot
-            // 
-            this.buttonEAPlot.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonEAPlot.Location = new System.Drawing.Point(4, 337);
-            this.buttonEAPlot.Name = "buttonEAPlot";
-            this.buttonEAPlot.Size = new System.Drawing.Size(328, 34);
-            this.buttonEAPlot.TabIndex = 30;
-            this.buttonEAPlot.Text = "Analyze!";
-            this.buttonEAPlot.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxEARungeKutta
-            // 
-            this.checkBoxEARungeKutta.AutoSize = true;
-            this.checkBoxEARungeKutta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBoxEARungeKutta.Location = new System.Drawing.Point(4, 290);
-            this.checkBoxEARungeKutta.Name = "checkBoxEARungeKutta";
-            this.checkBoxEARungeKutta.Size = new System.Drawing.Size(205, 28);
-            this.checkBoxEARungeKutta.TabIndex = 29;
-            this.checkBoxEARungeKutta.Text = "Runge-Kutta method";
-            this.checkBoxEARungeKutta.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxEAImprovedEuler
-            // 
-            this.checkBoxEAImprovedEuler.AutoSize = true;
-            this.checkBoxEAImprovedEuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBoxEAImprovedEuler.Location = new System.Drawing.Point(4, 248);
-            this.checkBoxEAImprovedEuler.Name = "checkBoxEAImprovedEuler";
-            this.checkBoxEAImprovedEuler.Size = new System.Drawing.Size(230, 28);
-            this.checkBoxEAImprovedEuler.TabIndex = 28;
-            this.checkBoxEAImprovedEuler.Text = "Improved Euler method";
-            this.checkBoxEAImprovedEuler.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxEAEuler
-            // 
-            this.checkBoxEAEuler.AutoSize = true;
-            this.checkBoxEAEuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBoxEAEuler.Location = new System.Drawing.Point(4, 204);
-            this.checkBoxEAEuler.Name = "checkBoxEAEuler";
-            this.checkBoxEAEuler.Size = new System.Drawing.Size(146, 28);
-            this.checkBoxEAEuler.TabIndex = 27;
-            this.checkBoxEAEuler.Text = "Euler method";
-            this.checkBoxEAEuler.UseVisualStyleBackColor = true;
-            // 
-            // labelEADisplayChoice
-            // 
-            this.labelEADisplayChoice.AutoSize = true;
-            this.labelEADisplayChoice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelEADisplayChoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelEADisplayChoice.Location = new System.Drawing.Point(4, 123);
-            this.labelEADisplayChoice.Name = "labelEADisplayChoice";
-            this.labelEADisplayChoice.Padding = new System.Windows.Forms.Padding(5);
-            this.labelEADisplayChoice.Size = new System.Drawing.Size(254, 36);
-            this.labelEADisplayChoice.TabIndex = 26;
-            this.labelEADisplayChoice.Text = "Choose methods to display:";
-            // 
-            // checkBoxEAExact
-            // 
-            this.checkBoxEAExact.AutoSize = true;
-            this.checkBoxEAExact.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBoxEAExact.Location = new System.Drawing.Point(4, 166);
-            this.checkBoxEAExact.Name = "checkBoxEAExact";
-            this.checkBoxEAExact.Size = new System.Drawing.Size(79, 28);
-            this.checkBoxEAExact.TabIndex = 25;
-            this.checkBoxEAExact.Text = "Exact";
-            this.checkBoxEAExact.UseVisualStyleBackColor = true;
-            // 
-            // textBoxEAN
-            // 
-            this.textBoxEAN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxEAN.Location = new System.Drawing.Point(34, 80);
-            this.textBoxEAN.Name = "textBoxEAN";
-            this.textBoxEAN.Size = new System.Drawing.Size(233, 28);
-            this.textBoxEAN.TabIndex = 22;
-            // 
-            // textBoxEAn0
-            // 
-            this.textBoxEAn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxEAn0.Location = new System.Drawing.Point(34, 49);
-            this.textBoxEAn0.Name = "textBoxEAn0";
-            this.textBoxEAn0.Size = new System.Drawing.Size(233, 28);
-            this.textBoxEAn0.TabIndex = 21;
-            // 
-            // labelEAN
-            // 
-            this.labelEAN.AutoSize = true;
-            this.labelEAN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelEAN.Location = new System.Drawing.Point(0, 85);
-            this.labelEAN.Name = "labelEAN";
-            this.labelEAN.Size = new System.Drawing.Size(29, 24);
-            this.labelEAN.TabIndex = 18;
-            this.labelEAN.Text = "N:";
-            // 
-            // labelEAn0
-            // 
-            this.labelEAn0.AutoSize = true;
-            this.labelEAn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelEAn0.Location = new System.Drawing.Point(0, 54);
-            this.labelEAn0.Name = "labelEAn0";
-            this.labelEAn0.Size = new System.Drawing.Size(36, 24);
-            this.labelEAn0.TabIndex = 17;
-            this.labelEAn0.Text = "n0:";
+            this.labelnStart.AutoSize = true;
+            this.labelnStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelnStart.Location = new System.Drawing.Point(28, 264);
+            this.labelnStart.Name = "labelnStart";
+            this.labelnStart.Size = new System.Drawing.Size(62, 24);
+            this.labelnStart.TabIndex = 17;
+            this.labelnStart.Text = "nStart:";
             // 
             // labelEAInput
             // 
+            this.labelEAInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelEAInput.AutoSize = true;
             this.labelEAInput.BackColor = System.Drawing.Color.Transparent;
             this.labelEAInput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelEAInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelEAInput.Location = new System.Drawing.Point(3, 4);
+            this.labelEAInput.Location = new System.Drawing.Point(3, 209);
             this.labelEAInput.Name = "labelEAInput";
             this.labelEAInput.Padding = new System.Windows.Forms.Padding(5);
             this.labelEAInput.Size = new System.Drawing.Size(219, 36);
             this.labelEAInput.TabIndex = 16;
             this.labelEAInput.Text = "Input range for analysis:";
             // 
+            // splitContainer3
+            // 
+            this.splitContainer3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer3.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer3.Name = "splitContainer3";
+            // 
+            // splitContainer3.Panel1
+            // 
+            this.splitContainer3.Panel1.Controls.Add(this.tabPanelControl);
+            // 
+            // splitContainer3.Panel2
+            // 
+            this.splitContainer3.Panel2.Controls.Add(this.buttonPlotAnalyze);
+            this.splitContainer3.Panel2.Controls.Add(this.labelIVPInput);
+            this.splitContainer3.Panel2.Controls.Add(this.checkBoxRungeKutta);
+            this.splitContainer3.Panel2.Controls.Add(this.labelx0);
+            this.splitContainer3.Panel2.Controls.Add(this.checkBoxImprovedEuler);
+            this.splitContainer3.Panel2.Controls.Add(this.textBoxx0);
+            this.splitContainer3.Panel2.Controls.Add(this.labelEAInput);
+            this.splitContainer3.Panel2.Controls.Add(this.textBoxnFinish);
+            this.splitContainer3.Panel2.Controls.Add(this.checkBoxEuler);
+            this.splitContainer3.Panel2.Controls.Add(this.labelnFinish);
+            this.splitContainer3.Panel2.Controls.Add(this.textBoxnStart);
+            this.splitContainer3.Panel2.Controls.Add(this.labely0);
+            this.splitContainer3.Panel2.Controls.Add(this.checkBoxExact);
+            this.splitContainer3.Panel2.Controls.Add(this.labelnStart);
+            this.splitContainer3.Panel2.Controls.Add(this.labelDisplayChoice);
+            this.splitContainer3.Panel2.Controls.Add(this.textBoxy0);
+            this.splitContainer3.Panel2.Controls.Add(this.labelX);
+            this.splitContainer3.Panel2.Controls.Add(this.textBoxN);
+            this.splitContainer3.Panel2.Controls.Add(this.textBoxX);
+            this.splitContainer3.Panel2.Controls.Add(this.labelN);
+            this.splitContainer3.Size = new System.Drawing.Size(1237, 704);
+            this.splitContainer3.SplitterDistance = 800;
+            this.splitContainer3.TabIndex = 1;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1132, 706);
-            this.Controls.Add(this.tabPanelControl);
+            this.ClientSize = new System.Drawing.Size(1237, 704);
+            this.Controls.Add(this.splitContainer3);
             this.Name = "MainForm";
             this.Text = "DE Project";
             this.tabPanelControl.ResumeLayout(false);
             this.tabIVPSolutions.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
-            this.splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            this.splitContainer2.Panel1.ResumeLayout(false);
-            this.splitContainer2.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
-            this.splitContainer2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chartIVP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartLTE)).EndInit();
             this.tabErrorAnalysis.ResumeLayout(false);
-            this.splitContainerEA.Panel1.ResumeLayout(false);
-            this.splitContainerEA.Panel2.ResumeLayout(false);
-            this.splitContainerEA.Panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerEA)).EndInit();
-            this.splitContainerEA.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chartEA)).EndInit();
+            this.splitContainer3.Panel1.ResumeLayout(false);
+            this.splitContainer3.Panel2.ResumeLayout(false);
+            this.splitContainer3.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
+            this.splitContainer3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -637,38 +566,31 @@
         private System.Windows.Forms.TabControl tabPanelControl;
         private System.Windows.Forms.TabPage tabIVPSolutions;
         private System.Windows.Forms.TabPage tabErrorAnalysis;
-        private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.Label labelVPN;
-        private System.Windows.Forms.Label labelIVPX;
-        private System.Windows.Forms.Label labelIVPy0;
-        private System.Windows.Forms.Label labelIVPx0;
+        private System.Windows.Forms.Label labelN;
+        private System.Windows.Forms.Label labelX;
+        private System.Windows.Forms.Label labely0;
+        private System.Windows.Forms.Label labelx0;
         private System.Windows.Forms.Label labelIVPInput;
-        private System.Windows.Forms.TextBox textBoxIVPN;
-        private System.Windows.Forms.TextBox textBoxIVPX;
-        private System.Windows.Forms.TextBox textBoxIVPy0;
-        private System.Windows.Forms.TextBox textBoxIVPx0;
-        private System.Windows.Forms.Label labelIVPDisplayChoice;
-        private System.Windows.Forms.CheckBox checkBoxIVPExact;
-        private System.Windows.Forms.Button buttonIVPPlot;
-        private System.Windows.Forms.CheckBox checkBoxIVPRungeKutta;
-        private System.Windows.Forms.CheckBox checkBoxIVPImprovedEuler;
-        private System.Windows.Forms.CheckBox checkBoxIVPEuler;
-        private System.Windows.Forms.SplitContainer splitContainer2;
+        private System.Windows.Forms.TextBox textBoxN;
+        private System.Windows.Forms.TextBox textBoxX;
+        private System.Windows.Forms.TextBox textBoxy0;
+        private System.Windows.Forms.TextBox textBoxx0;
+        private System.Windows.Forms.Label labelDisplayChoice;
+        private System.Windows.Forms.CheckBox checkBoxExact;
+        private System.Windows.Forms.Button buttonPlotAnalyze;
+        private System.Windows.Forms.CheckBox checkBoxRungeKutta;
+        private System.Windows.Forms.CheckBox checkBoxImprovedEuler;
+        private System.Windows.Forms.CheckBox checkBoxEuler;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartEA;
+        private System.Windows.Forms.TextBox textBoxnFinish;
+        private System.Windows.Forms.TextBox textBoxnStart;
+        private System.Windows.Forms.Label labelnFinish;
+        private System.Windows.Forms.Label labelnStart;
+        private System.Windows.Forms.Label labelEAInput;
+        private System.Windows.Forms.SplitContainer splitContainer3;
+        private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartIVP;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartLTE;
-        private System.Windows.Forms.SplitContainer splitContainerEA;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chartEA;
-        private System.Windows.Forms.Button buttonEAPlot;
-        private System.Windows.Forms.CheckBox checkBoxEARungeKutta;
-        private System.Windows.Forms.CheckBox checkBoxEAImprovedEuler;
-        private System.Windows.Forms.CheckBox checkBoxEAEuler;
-        private System.Windows.Forms.Label labelEADisplayChoice;
-        private System.Windows.Forms.CheckBox checkBoxEAExact;
-        private System.Windows.Forms.TextBox textBoxEAN;
-        private System.Windows.Forms.TextBox textBoxEAn0;
-        private System.Windows.Forms.Label labelEAN;
-        private System.Windows.Forms.Label labelEAn0;
-        private System.Windows.Forms.Label labelEAInput;
     }
 }
 

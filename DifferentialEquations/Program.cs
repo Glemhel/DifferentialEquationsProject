@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DifferentialEquations
@@ -16,6 +13,7 @@ namespace DifferentialEquations
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            // run the application
             Application.Run(new MainForm());
         }
     }
